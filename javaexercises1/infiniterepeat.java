@@ -19,6 +19,6 @@ public class infiniterepeat {
             }
         }
         System.out.printf("The media of this grades is: %.2f %n", media/cont);
-       
+        sc.close();
     }
 }

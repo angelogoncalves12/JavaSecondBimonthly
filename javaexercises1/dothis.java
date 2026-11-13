@@ -9,12 +9,13 @@ public class dothis {
         double media = 0;
         do { 
             System.out.print("Insert this student grade: ");
-            double grade = sc.nextDouble;
+            double grade = sc.nextDouble();
             
             media += grade;
             cont ++;
 
         } while (cont <= 5);
         System.out.printf("The geral media of this grades is: %.2f %n", media/5);
+        sc.close();
     }
 }
